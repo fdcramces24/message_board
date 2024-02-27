@@ -18,5 +18,15 @@
             ]
             
         ];
+        public $belongsTo = [
+            'Connection' => [
+                'className' => 'Connection',
+                'foreignKey' => 'connection_id'
+            ],
+            'User' => [
+                'className' => 'User',
+                'foreignKey' => 'user_id'
+            ]
+        ];
     }
 ?>

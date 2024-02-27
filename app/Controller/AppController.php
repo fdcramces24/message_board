@@ -31,29 +31,40 @@ App::uses('Controller', 'Controller');
  * @link		https://book.cakephp.org/2.0/en/controllers.html#the-app-controller
  */
 class AppController extends Controller {
-    public $components = [
-        'DebugKit.Toolbar',
-        'Flash',
-        'Session',
-        'Auth' => [
-                'loginRedirect' => ['controller' => 'users',  'action' => 'index'],
-                'logoutRedirect' => ['controller' => 'users',  'action' => 'login'],
-                'authError' => 'You cant access this page',
-                // 'authorize' => ['controller']
-            ]
-        ];
-    
-    // public function isAuthorized($user){
-    //     return true;
-    // }
 
-    // public function beforeFilter(){
-    //     $this->Auth->allow('index','view');
-    // }
+    public $components = array(
+            'DebugKit.Toolbar',
+            'Flash',
+        'Session',
+        'Auth' => array(
+            'authenticate' => array(
+                'Form' => array(
+                    'userModel' => 'User',
+                    'passwordHasher' => 'Blowfish',
+                    'fields' => array(
+                        'username' => 'email',
+                        'password' => 'password'
+                    )
+                )
+            ),
+            'loginAction' => array(
+                'controller' => 'users',
+                'action' => 'login'
+            ),
+            'loginRedirect' => array(
+                'controller' => 'messages',
+                'action' => 'index'
+            ),
+            'logoutRedirect' => array(
+                'controller' => 'users',
+                'action' => 'login'
+            ),
+        )
+    );
     public function beforeFilter(){
         $this->loadModel('User');
-        if($this->Auth->loggedIn()){
-            $userId = $this->Auth->user()['User']['id'];
+        if($this->Auth->user()){
+            $userId = $this->Auth->user('id');
             $userData = $this->User->findById($userId);
             $this->set('userData',$userData['User']);
         }

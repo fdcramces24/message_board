@@ -7,6 +7,10 @@
             'ConnectionMember' => [
                 'className' => 'ConnectionMember',
                 'foreignKey' => 'connection_id'
+            ],
+            'Message' => [
+                'className' => 'Message',
+                'foreignKey' => 'connection_id'
             ]
         ];
     }

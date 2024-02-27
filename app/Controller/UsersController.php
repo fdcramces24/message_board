@@ -2,14 +2,14 @@
 App::uses('AppController','Controller');
 
 class UsersController extends AppController{
-    public $helpers = array('Html');
-    public $components = array('Session');
+    public $helpers = array('Html','Form');
     public function beforeFilter(){
+        parent::beforeFilter();
         $this->Auth->allow('new');   
     }
     public function edit(){
         $authData = $this->Auth->user();
-        $userId  = $authData['User']['id'];
+        $userId  = $authData['id'];
         $userData = $this->User->findById($userId);
         if($this->request->is(array('post','put'))){
               //check if user update profile picture
@@ -44,15 +44,16 @@ class UsersController extends AppController{
                 'fullname' => $this->request->data['fullname'],
                 'gender' => $this->request->data['gender'],
                 'birthdate' => $this->request->data['birthdate'],
-                'hubby' => $this->request->data['hobby'],
+                'hubby' => $this->request->data['User']['hubby'],
                 'profile_photo' => $profilePhoto
             ];
-            $this->User->save($data);
-            $userData = $this->User->findById($userId);
-            $this->Flash->set('The user has been saved.', array(
-                'element' => 'success'
-            )); 
-            $this->redirect(['controller' => 'users', 'action' => 'index']);
+            if($this->User->save($data)){
+                $userData = $this->User->findById($userId);
+                // $this->Flash->success('The user has been saved!');
+                $this->Flash->success('<strong>The user has been saved!</strong>', ['element' => 'success']);
+
+                $this->redirect(['controller' => 'messages', 'action' => 'index']);
+            }
         }
         $this->set('userData',$userData['User']);
     }
@@ -71,7 +72,7 @@ class UsersController extends AppController{
             ];
             if($this->User->save($data)){
                 $dbUserData = $this->User->read(null,$this->User->id);
-                if($this->Auth->login($dbUserData)){
+                if($this->Auth->login($dbUserData['User'])){
                     $this->redirect(['controller' => 'users', 'action' => 'welcome']);
                 }
             }
@@ -81,11 +82,11 @@ class UsersController extends AppController{
     }
     public function welcome(){
         $authData = $this->Auth->user();
-        $lastLoggedIn  = $authData['User']['last_logged_in'];
+        $lastLoggedIn  = $authData['last_logged_in'];
         if(empty($lastLoggedIn)){
-            $userId = $authData['User']['id'];
+            $userId = $authData['id'];
             $userData = $this->User->findById($userId);
-            if(empty($userData['User']['last_logged_in'])){
+            if(empty($userData['last_logged_in'])){
                 $data = [
                     'id' => $userId,
                     'last_logged_in' => date('Y-m-d H:i:s')
@@ -101,7 +102,14 @@ class UsersController extends AppController{
     public function login(){
         if($this->request->is('post')){
             if($this->Auth->login()){
-                return $this->redirect($this->Auth->redirectUrl());
+                $datenow = date("Y-m-d H:i:s");
+                $data = array(
+					'id' => $this->Auth->user('id'),
+					'last_logged_in' => $datenow
+				);
+                if($this->User->save($data)){
+                    return $this->redirect($this->Auth->redirectUrl());
+                }
             }else{
                 $this->Flash->set('Invalid username or password, please try again.',array('element' => 'error'));
             }
@@ -111,7 +119,7 @@ class UsersController extends AppController{
     }
     public function index(){
         $authData = $this->Auth->user();
-        $userId = $authData['User']['id'];
+        $userId = $authData['id'];
         $userData = $this->User->findById($userId);
         $this->set('userData',$userData['User']);
     }

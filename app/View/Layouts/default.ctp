@@ -25,6 +25,52 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 		<?php echo $cakeDescription ?>:
 		<?php echo $this->fetch('title'); ?>
 	</title>
+  <style>
+     .chat-container {
+        max-width: 100%;
+        margin: 50px auto;
+        padding: 0 30px;
+      }
+      .message-container{
+        max-height: 500px; /* Set a maximum height for the container */
+         overflow-y: auto; /* Enable vertical scrolling */
+      }
+      .message {
+        display: flex;
+        margin-bottom: 15px;
+      }
+  
+      .avatar {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        margin-right: 10px;
+      }
+  
+      .message-bubble {
+        background-color: #f0f0f0;
+        padding: 10px 15px;
+        border-radius: 20px;
+        width: 100%;
+      }
+      .sender-name {
+      font-weight: bold;
+    }
+  
+      .received .message-bubble {
+        background-color: #e7e7e7;
+      }
+  
+      .sent .message-bubble {
+        background-color: #0084ff;
+        color: #fff;
+      }
+  
+      .message-info {
+        font-size: 0.8em;
+        color: #888;
+      }
+  </style>
 	<?php
 		echo $this->Html->meta('icon');
 		echo $this->Html->css('bootstrap.min');
@@ -65,7 +111,7 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
                     </div>
                     <!-- content -->
                     <div class="lh-1">
-                      <h2 class="mb-0"><?= $userData['fullname']?>
+                      <h2 class="mb-0"><?= $userData['fullname']?> 
                         <a href="#!" class="text-decoration-none">
                         </a>
                       </h2>
@@ -77,7 +123,7 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
                             <p class="mb-2 d-block">Birthdate: 
                             <?php 
                                 $bdate = $userData['birthdate'];
-                                echo $this->Time->format($bdate, '%B %e, %Y - %H:%M %p');
+                                echo $this->Time->format($bdate, '%B %e, %Y');
                             ?>
                             </p>
                         <?php endif; ?>
@@ -102,21 +148,14 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
                   </div>
                 </div>
                 <!-- nav -->
-                <ul class="nav nav-lt-tab px-4" id="pills-tab" role="tablist">
-                  <li class="nav-item">
-                    <a class="nav-link active" href="#">Activity</a>
-                    <?php
-                      if($this->Session->check('Message.flash')):
-                    ?>
-                          Success Edit
-                    <?php endif;?>  
-                  </li>
-                </ul>
               </div>
             </div>
           </div>
 		</div>
     <div class="container my-5">
+        <?php
+            echo $this->Flash->render();   
+        ?>
       <?php echo $this->fetch('content'); ?>     
     </div>
 	</div>

@@ -4,8 +4,11 @@
   </div>
   <div class="card-body">
    <?php
-        echo $this->Form->create('Users', array( 'type' => 'file', 'url' => array('controller' => 'Users', 'action' => 'edit')));
+        echo $this->Form->create('User', array( 'type' => 'file', 'url' => array('controller' => 'Users', 'action' => 'edit')));
    ?>
+        <div class="form-group">
+            <?php echo $this->Flash->render(); ?>
+        </div>
         <div class="form-group text-center">
             <?php
                 $profilePicture = '/uploads/default.jpg';
@@ -22,6 +25,11 @@
         <div class="form-group">
             <label for="">Fullname</label>
             <input type="text" name="fullname" class="form-control" value="<?=$userData['fullname']?>">
+            <?php
+                if (!empty($this->validationErrors['User']['fullname'])) {
+                    echo '<div class="text-danger">' . $this->validationErrors['User']['fullname'][0] . '</div>';
+                }
+            ?>
         </div>
         <div class="form-group">
             <label for="">Birthdate</label>
@@ -48,8 +56,17 @@
             </div>
         </div>
         <div class="form-group">
-            <label for="">Hobby</label>
-            <textarea name="hobby" id="" cols="30" rows="10" class="form-control"><?= $userData['hubby']; ?></textarea>
+            <?php
+                echo $this->Form->textarea('hubby', array(
+                    'value' => $userData['hubby'],
+                    'class' => 'form-control', // Optional: Add CSS class
+                    'rows' => '10', // Optional: Specify the number of rows
+                    'cols' => '30', // Optional: Specify the number of columns
+                    'label' => 'Hobby'
+                ));
+                
+            ?>
+           
         </div>
         <div class="form-group mt-2">
             <button type="submit" class="btn btn-success">Save</button>

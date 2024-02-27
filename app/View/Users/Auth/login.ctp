@@ -5,7 +5,7 @@
                 <div id="login-column" class="col-md-6">
                     <div id="login-box" class="col-md-12">
                         <?php
-                             echo $this->Form->create('Users',array('class' => 'form','id' => 'login-form'));
+                             echo $this->Form->create('User',array('class' => 'form','id' => 'login-form'));
                         ?>
                             <h3 class="text-center text-info">Login</h3>
                             <div class="form-group">
@@ -18,7 +18,7 @@
                             </div>
                             <div class="form-group">
                                 <?=
-                                    $this->Form->input('password',['label' => 'Password', 'class' => 'form-control','required' => true]);
+                                    $this->Form->input('password',['type' => 'password','label' => 'Password', 'class' => 'form-control','required' => true]);
                                 ?>
                             </div>
                             <div class="form-group mt-3"> <input type="submit" name="submit" class="btn btn-info btn-md" value="submit">

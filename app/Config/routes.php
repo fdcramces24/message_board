@@ -25,15 +25,25 @@
  * its action called 'display', and we pass a param to select the view file
  * to use (in this case, /app/View/Pages/home.ctp)...
  */
-	Router::connect('/', array('controller' => 'pages', 'action' => 'display', 'home'));
+	// Router::connect('/', array('controller' => 'pages', 'action' => 'display', 'home'));
 /**
  * ...and connect the rest of 'Pages' controller's URLs.
  */
-	Router::connect('/pages/*', array('controller' => 'pages', 'action' => 'display'));
+	// Router::connect('/pages/*', array('controller' => 'pages', 'action' => 'display'));
+
+	Router::connect('/', ['controller' => 'messages', 'action' => 'list']);
+	Router::connect('/users/edit', ['controller' => 'users', 'action' => 'edit']);
+	Router::connect('/users/login', ['controller' => 'users', 'action' => 'login']);
+	Router::connect('/users/logout', ['controller' => 'users', 'action' => 'logout']);
+	Router::connect('/users/welcome', ['controller' => 'users', 'action' => 'welcome']);
+	Router::connect('/users/new', ['controller' => 'users', 'action' => 'new']);
 
 
+	Router::connect('/messages', ['controller' => 'messages', 'action' => 'list']);
+	Router::connect('/new-message', ['controller' => 'messages', 'action' => 'new']);
+	Router::connect('/message/*', ['controller' => 'messages', 'action' => 'message']);
+	
 	//Ajax
-
 	Router::connect('/users/api',['controller' => 'apis', 'action' => 'run']);
 
 /**

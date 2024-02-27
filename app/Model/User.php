@@ -1,10 +1,21 @@
 <?php
     App::uses('AppModel','Model');
+    App::uses('BlowfishPasswordHasher', 'Controller/Component/Auth');
+
 
     class User extends AppModel{
         public $name = 'User';
         public $useTable = 'users';
+        public $virtualFields = array(
+            'gender_label' => 'CASE WHEN gender = 1 THEN "Male" ELSE "Female" END'
+        );
         public $validate = [
+            'content' => [
+                'required' => [
+                    'rule' => 'notBlank',
+                    'message' => 'Content is required'
+                ]   
+            ],
             'fullname' => [
                 'required' => [
                     'rule' => 'notBlank',
@@ -66,7 +77,8 @@
         }
         public function beforeSave($options = array()){
             if(isset($this->data['User']['password'])){
-                $this->data['User']['password'] = AuthComponent::password($this->data['User']['password']);
+                $passwordHasher = new BlowfishPasswordHasher();
+                $this->data['User']['password'] = $passwordHasher->hash($this->data['User']['password']);
             }
             if(!empty($this->data['User']['id'])){
                 $this->data['User']['updated_at'] = date('Y-m-d H:i:s');
