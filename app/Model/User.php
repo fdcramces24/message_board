@@ -63,9 +63,9 @@
                     'rule' => 'notBlank',
                     'message' => 'Please confirm your password'
                 ]
-            ]
+            ],
+                
         ];
-
         public function matchPasswords($data){
             if(isset($this->data['User']['confirm_password'])){
                 if($data['password'] == $this->data['User']['confirm_password']){

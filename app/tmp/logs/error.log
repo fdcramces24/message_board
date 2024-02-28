@@ -831,3 +831,2200 @@ Request URL: /messaged
 Stack Trace:
 #0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2024-02-28 02:53:33 Error: [Error] Call to undefined method ApisController::findMessage()
+Request URL: /users/api
+Stack Trace:
+#0 [internal function]: ApisController->run()
+#1 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ApisController), Array)
+#2 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApisController), Object(CakeRequest))
+#4 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2024-02-28 02:53:33 Error: [Error] Call to undefined method ApisController::findMessage()
+Request URL: /users/api
+Stack Trace:
+#0 [internal function]: ApisController->run()
+#1 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ApisController), Array)
+#2 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApisController), Object(CakeRequest))
+#4 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2024-02-28 02:53:34 Error: [Error] Call to undefined method ApisController::findMessage()
+Request URL: /users/api
+Stack Trace:
+#0 [internal function]: ApisController->run()
+#1 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ApisController), Array)
+#2 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApisController), Object(CakeRequest))
+#4 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2024-02-28 02:53:34 Error: [Error] Call to undefined method ApisController::findMessage()
+Request URL: /users/api
+Stack Trace:
+#0 [internal function]: ApisController->run()
+#1 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ApisController), Array)
+#2 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApisController), Object(CakeRequest))
+#4 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2024-02-28 02:53:34 Error: [Error] Call to undefined method ApisController::findMessage()
+Request URL: /users/api
+Stack Trace:
+#0 [internal function]: ApisController->run()
+#1 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ApisController), Array)
+#2 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApisController), Object(CakeRequest))
+#4 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2024-02-28 02:53:34 Error: [Error] Call to undefined method ApisController::findMessage()
+Request URL: /users/api
+Stack Trace:
+#0 [internal function]: ApisController->run()
+#1 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ApisController), Array)
+#2 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApisController), Object(CakeRequest))
+#4 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2024-02-28 02:53:34 Error: [Error] Call to undefined method ApisController::findMessage()
+Request URL: /users/api
+Stack Trace:
+#0 [internal function]: ApisController->run()
+#1 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ApisController), Array)
+#2 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApisController), Object(CakeRequest))
+#4 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2024-02-28 02:53:34 Error: [Error] Call to undefined method ApisController::findMessage()
+Request URL: /users/api
+Stack Trace:
+#0 [internal function]: ApisController->run()
+#1 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ApisController), Array)
+#2 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApisController), Object(CakeRequest))
+#4 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2024-02-28 02:53:34 Error: [Error] Call to undefined method ApisController::findMessage()
+Request URL: /users/api
+Stack Trace:
+#0 [internal function]: ApisController->run()
+#1 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ApisController), Array)
+#2 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApisController), Object(CakeRequest))
+#4 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2024-02-28 02:53:34 Error: [Error] Call to undefined method ApisController::findMessage()
+Request URL: /users/api
+Stack Trace:
+#0 [internal function]: ApisController->run()
+#1 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ApisController), Array)
+#2 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApisController), Object(CakeRequest))
+#4 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2024-02-28 02:53:34 Error: [Error] Call to undefined method ApisController::findMessage()
+Request URL: /users/api
+Stack Trace:
+#0 [internal function]: ApisController->run()
+#1 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ApisController), Array)
+#2 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApisController), Object(CakeRequest))
+#4 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2024-02-28 02:53:34 Error: [Error] Call to undefined method ApisController::findMessage()
+Request URL: /users/api
+Stack Trace:
+#0 [internal function]: ApisController->run()
+#1 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ApisController), Array)
+#2 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApisController), Object(CakeRequest))
+#4 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2024-02-28 02:53:34 Error: [Error] Call to undefined method ApisController::findMessage()
+Request URL: /users/api
+Stack Trace:
+#0 [internal function]: ApisController->run()
+#1 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ApisController), Array)
+#2 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApisController), Object(CakeRequest))
+#4 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2024-02-28 02:53:34 Error: [Error] Call to undefined method ApisController::findMessage()
+Request URL: /users/api
+Stack Trace:
+#0 [internal function]: ApisController->run()
+#1 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ApisController), Array)
+#2 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApisController), Object(CakeRequest))
+#4 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2024-02-28 02:53:34 Error: [Error] Call to undefined method ApisController::findMessage()
+Request URL: /users/api
+Stack Trace:
+#0 [internal function]: ApisController->run()
+#1 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ApisController), Array)
+#2 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApisController), Object(CakeRequest))
+#4 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2024-02-28 02:53:34 Error: [Error] Call to undefined method ApisController::findMessage()
+Request URL: /users/api
+Stack Trace:
+#0 [internal function]: ApisController->run()
+#1 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ApisController), Array)
+#2 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApisController), Object(CakeRequest))
+#4 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2024-02-28 02:53:35 Error: [Error] Call to undefined method ApisController::findMessage()
+Request URL: /users/api
+Stack Trace:
+#0 [internal function]: ApisController->run()
+#1 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ApisController), Array)
+#2 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApisController), Object(CakeRequest))
+#4 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2024-02-28 02:53:35 Error: [Error] Call to undefined method ApisController::findMessage()
+Request URL: /users/api
+Stack Trace:
+#0 [internal function]: ApisController->run()
+#1 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ApisController), Array)
+#2 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApisController), Object(CakeRequest))
+#4 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2024-02-28 02:53:35 Error: [Error] Call to undefined method ApisController::findMessage()
+Request URL: /users/api
+Stack Trace:
+#0 [internal function]: ApisController->run()
+#1 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ApisController), Array)
+#2 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApisController), Object(CakeRequest))
+#4 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2024-02-28 02:53:35 Error: [Error] Call to undefined method ApisController::findMessage()
+Request URL: /users/api
+Stack Trace:
+#0 [internal function]: ApisController->run()
+#1 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ApisController), Array)
+#2 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApisController), Object(CakeRequest))
+#4 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2024-02-28 02:53:35 Error: [Error] Call to undefined method ApisController::findMessage()
+Request URL: /users/api
+Stack Trace:
+#0 [internal function]: ApisController->run()
+#1 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ApisController), Array)
+#2 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApisController), Object(CakeRequest))
+#4 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2024-02-28 02:53:35 Error: [Error] Call to undefined method ApisController::findMessage()
+Request URL: /users/api
+Stack Trace:
+#0 [internal function]: ApisController->run()
+#1 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ApisController), Array)
+#2 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApisController), Object(CakeRequest))
+#4 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2024-02-28 02:53:35 Error: [Error] Call to undefined method ApisController::findMessage()
+Request URL: /users/api
+Stack Trace:
+#0 [internal function]: ApisController->run()
+#1 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ApisController), Array)
+#2 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApisController), Object(CakeRequest))
+#4 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2024-02-28 02:53:38 Error: [Error] Call to undefined method ApisController::findMessage()
+Request URL: /users/api
+Stack Trace:
+#0 [internal function]: ApisController->run()
+#1 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ApisController), Array)
+#2 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApisController), Object(CakeRequest))
+#4 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2024-02-28 02:53:38 Error: [Error] Call to undefined method ApisController::findMessage()
+Request URL: /users/api
+Stack Trace:
+#0 [internal function]: ApisController->run()
+#1 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ApisController), Array)
+#2 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApisController), Object(CakeRequest))
+#4 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2024-02-28 02:53:38 Error: [Error] Call to undefined method ApisController::findMessage()
+Request URL: /users/api
+Stack Trace:
+#0 [internal function]: ApisController->run()
+#1 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ApisController), Array)
+#2 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApisController), Object(CakeRequest))
+#4 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2024-02-28 02:54:44 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 02:55:14 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 03:04:32 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 03:05:01 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 03:05:13 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 03:10:08 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 03:16:22 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 03:20:04 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 03:22:04 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 03:22:05 Error: [Error] Call to undefined method CakeLog::read()
+Request URL: /users/api
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/Controller/ApisController.php(16): ApisController->findMessage(Array)
+#1 [internal function]: ApisController->run()
+#2 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ApisController), Array)
+#3 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApisController), Object(CakeRequest))
+#5 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-02-28 03:24:12 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 03:24:29 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 03:25:08 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 03:27:52 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 03:29:15 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 03:29:15 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 03:43:37 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 03:43:45 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 03:43:53 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 03:43:53 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 03:44:12 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 03:44:34 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 03:44:59 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 03:46:23 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 03:47:05 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 03:47:06 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'JOIN users ON users.id = messages.user_id' at line 1
+Request URL: /users/api
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('SELECT * FROM m...', Array)
+#2 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Datasource/DboSource.php(715): DboSource->execute('SELECT * FROM m...', Array, Array)
+#3 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Datasource/DboSource.php(641): DboSource->fetchAll('SELECT * FROM m...', Array)
+#4 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Model.php(3489): DboSource->query('SELECT * FROM m...', false)
+#5 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/Controller/ApisController.php(34): Model->query('SELECT * FROM m...')
+#6 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/Controller/ApisController.php(16): ApisController->findMessage(Array)
+#7 [internal function]: ApisController->run()
+#8 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ApisController), Array)
+#9 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApisController), Object(CakeRequest))
+#11 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2024-02-28 03:47:50 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 03:48:32 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 03:49:33 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 03:49:40 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 03:50:30 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 03:52:30 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 03:52:30 Error: [DivisionByZeroError] Modulo by zero
+Request URL: /users/api
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/Controller/ApisController.php(16): ApisController->findMessage(Array)
+#1 [internal function]: ApisController->run()
+#2 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ApisController), Array)
+#3 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApisController), Object(CakeRequest))
+#5 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-02-28 03:52:31 Error: [DivisionByZeroError] Modulo by zero
+Request URL: /users/api
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/Controller/ApisController.php(16): ApisController->findMessage(Array)
+#1 [internal function]: ApisController->run()
+#2 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ApisController), Array)
+#3 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApisController), Object(CakeRequest))
+#5 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-02-28 03:52:31 Error: [DivisionByZeroError] Modulo by zero
+Request URL: /users/api
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/Controller/ApisController.php(16): ApisController->findMessage(Array)
+#1 [internal function]: ApisController->run()
+#2 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ApisController), Array)
+#3 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApisController), Object(CakeRequest))
+#5 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-02-28 03:52:31 Error: [DivisionByZeroError] Modulo by zero
+Request URL: /users/api
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/Controller/ApisController.php(16): ApisController->findMessage(Array)
+#1 [internal function]: ApisController->run()
+#2 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ApisController), Array)
+#3 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApisController), Object(CakeRequest))
+#5 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-02-28 03:52:32 Error: [DivisionByZeroError] Modulo by zero
+Request URL: /users/api
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/Controller/ApisController.php(16): ApisController->findMessage(Array)
+#1 [internal function]: ApisController->run()
+#2 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ApisController), Array)
+#3 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApisController), Object(CakeRequest))
+#5 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-02-28 03:52:38 Error: [DivisionByZeroError] Modulo by zero
+Request URL: /users/api
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/Controller/ApisController.php(16): ApisController->findMessage(Array)
+#1 [internal function]: ApisController->run()
+#2 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ApisController), Array)
+#3 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApisController), Object(CakeRequest))
+#5 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-02-28 03:52:40 Error: [DivisionByZeroError] Modulo by zero
+Request URL: /users/api
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/Controller/ApisController.php(16): ApisController->findMessage(Array)
+#1 [internal function]: ApisController->run()
+#2 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ApisController), Array)
+#3 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApisController), Object(CakeRequest))
+#5 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-02-28 03:52:40 Error: [DivisionByZeroError] Modulo by zero
+Request URL: /users/api
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/Controller/ApisController.php(16): ApisController->findMessage(Array)
+#1 [internal function]: ApisController->run()
+#2 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ApisController), Array)
+#3 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApisController), Object(CakeRequest))
+#5 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-02-28 03:52:40 Error: [DivisionByZeroError] Modulo by zero
+Request URL: /users/api
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/Controller/ApisController.php(16): ApisController->findMessage(Array)
+#1 [internal function]: ApisController->run()
+#2 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ApisController), Array)
+#3 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApisController), Object(CakeRequest))
+#5 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-02-28 03:52:52 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 03:52:54 Error: [DivisionByZeroError] Modulo by zero
+Request URL: /users/api
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/Controller/ApisController.php(16): ApisController->findMessage(Array)
+#1 [internal function]: ApisController->run()
+#2 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ApisController), Array)
+#3 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApisController), Object(CakeRequest))
+#5 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-02-28 03:52:54 Error: [DivisionByZeroError] Modulo by zero
+Request URL: /users/api
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/Controller/ApisController.php(16): ApisController->findMessage(Array)
+#1 [internal function]: ApisController->run()
+#2 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ApisController), Array)
+#3 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApisController), Object(CakeRequest))
+#5 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-02-28 03:52:54 Error: [DivisionByZeroError] Modulo by zero
+Request URL: /users/api
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/Controller/ApisController.php(16): ApisController->findMessage(Array)
+#1 [internal function]: ApisController->run()
+#2 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ApisController), Array)
+#3 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApisController), Object(CakeRequest))
+#5 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-02-28 03:53:41 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 03:53:41 Error: [DivisionByZeroError] Modulo by zero
+Request URL: /users/api
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/Controller/ApisController.php(16): ApisController->findMessage(Array)
+#1 [internal function]: ApisController->run()
+#2 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ApisController), Array)
+#3 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApisController), Object(CakeRequest))
+#5 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-02-28 03:53:53 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 03:53:54 Error: [DivisionByZeroError] Modulo by zero
+Request URL: /users/api
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/Controller/ApisController.php(16): ApisController->findMessage(Array)
+#1 [internal function]: ApisController->run()
+#2 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ApisController), Array)
+#3 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApisController), Object(CakeRequest))
+#5 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-02-28 03:55:18 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 03:55:19 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty
+Request URL: /users/api
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('', Array)
+#2 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Datasource/DboSource.php(715): DboSource->execute(NULL, Array, Array)
+#3 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Datasource/DboSource.php(641): DboSource->fetchAll(NULL, Array)
+#4 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Model.php(3489): DboSource->query(NULL, false)
+#5 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/Controller/ApisController.php(34): Model->query(NULL)
+#6 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/Controller/ApisController.php(16): ApisController->findMessage(Array)
+#7 [internal function]: ApisController->run()
+#8 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ApisController), Array)
+#9 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApisController), Object(CakeRequest))
+#11 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2024-02-28 03:59:12 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 03:59:51 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 03:59:57 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 04:00:05 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 04:00:11 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 04:01:05 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 04:01:05 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 04:01:06 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'a'%'' at line 1
+Request URL: /users/api
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('SELECT * FROM m...', Array)
+#2 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Datasource/DboSource.php(715): DboSource->execute('SELECT * FROM m...', Array, Array)
+#3 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Datasource/DboSource.php(641): DboSource->fetchAll('SELECT * FROM m...', Array)
+#4 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Model.php(3489): DboSource->query('SELECT * FROM m...', false)
+#5 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/Controller/ApisController.php(35): Model->query('SELECT * FROM m...')
+#6 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/Controller/ApisController.php(16): ApisController->findMessage(Array)
+#7 [internal function]: ApisController->run()
+#8 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ApisController), Array)
+#9 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApisController), Object(CakeRequest))
+#11 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2024-02-28 04:01:25 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 04:01:47 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 04:03:05 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 04:03:08 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'message.connection_id' in 'group statement'
+Request URL: /users/api
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('SELECT * FROM m...', Array)
+#2 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Datasource/DboSource.php(715): DboSource->execute('SELECT * FROM m...', Array, Array)
+#3 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Datasource/DboSource.php(641): DboSource->fetchAll('SELECT * FROM m...', Array)
+#4 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Model.php(3489): DboSource->query('SELECT * FROM m...', false)
+#5 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/Controller/ApisController.php(35): Model->query('SELECT * FROM m...')
+#6 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/Controller/ApisController.php(16): ApisController->findMessage(Array)
+#7 [internal function]: ApisController->run()
+#8 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ApisController), Array)
+#9 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApisController), Object(CakeRequest))
+#11 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2024-02-28 04:03:13 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 04:07:09 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 04:07:29 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 04:09:31 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 04:09:53 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 04:41:10 Error: [MissingViewException] View file "Users/Users/Auth/change_password.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/Users/Auth/change_password.ctp',
+)
+Request URL: /users/changePassword
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/View/View.php(470): View->_getViewFileName('Users/Users/Aut...')
+#1 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Controller/Controller.php(968): View->render('Users/Auth/chan...', NULL)
+#2 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/Controller/UsersController.php(133): Controller->render('Users/Auth/chan...')
+#3 [internal function]: UsersController->changePassword()
+#4 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#5 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#7 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2024-02-28 04:41:21 Error: [MissingViewException] View file "Users/Users/Auth/change_password.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/Users/Auth/change_password.ctp',
+)
+Request URL: /users/changePassword
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/View/View.php(470): View->_getViewFileName('Users/Users/Aut...')
+#1 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Controller/Controller.php(968): View->render('Users/Auth/chan...', NULL)
+#2 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/Controller/UsersController.php(133): Controller->render('Users/Auth/chan...')
+#3 [internal function]: UsersController->changePassword()
+#4 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#5 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#7 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2024-02-28 04:41:22 Error: [MissingViewException] View file "Users/Users/Auth/change_password.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/Users/Auth/change_password.ctp',
+)
+Request URL: /users/changePassword
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/View/View.php(470): View->_getViewFileName('Users/Users/Aut...')
+#1 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Controller/Controller.php(968): View->render('Users/Auth/chan...', NULL)
+#2 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/Controller/UsersController.php(133): Controller->render('Users/Auth/chan...')
+#3 [internal function]: UsersController->changePassword()
+#4 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#5 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#7 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2024-02-28 04:41:22 Error: [MissingViewException] View file "Users/Users/Auth/change_password.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/Users/Auth/change_password.ctp',
+)
+Request URL: /users/changePassword
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/View/View.php(470): View->_getViewFileName('Users/Users/Aut...')
+#1 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Controller/Controller.php(968): View->render('Users/Auth/chan...', NULL)
+#2 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/Controller/UsersController.php(133): Controller->render('Users/Auth/chan...')
+#3 [internal function]: UsersController->changePassword()
+#4 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#5 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#7 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2024-02-28 04:41:23 Error: [MissingViewException] View file "Users/Users/Auth/change_password.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/Users/Auth/change_password.ctp',
+)
+Request URL: /users/changePassword
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/View/View.php(470): View->_getViewFileName('Users/Users/Aut...')
+#1 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Controller/Controller.php(968): View->render('Users/Auth/chan...', NULL)
+#2 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/Controller/UsersController.php(133): Controller->render('Users/Auth/chan...')
+#3 [internal function]: UsersController->changePassword()
+#4 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#5 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#7 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2024-02-28 04:41:23 Error: [MissingViewException] View file "Users/Users/Auth/change_password.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/Users/Auth/change_password.ctp',
+)
+Request URL: /users/changePassword
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/View/View.php(470): View->_getViewFileName('Users/Users/Aut...')
+#1 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Controller/Controller.php(968): View->render('Users/Auth/chan...', NULL)
+#2 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/Controller/UsersController.php(133): Controller->render('Users/Auth/chan...')
+#3 [internal function]: UsersController->changePassword()
+#4 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#5 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#7 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2024-02-28 04:41:55 Error: [MissingViewException] View file "Users/Users/Auth/change_password.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/Users/Auth/change_password.ctp',
+)
+Request URL: /users/changePassword
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/View/View.php(470): View->_getViewFileName('Users/Users/Aut...')
+#1 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Controller/Controller.php(968): View->render('Users/Auth/chan...', NULL)
+#2 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/Controller/UsersController.php(133): Controller->render('Users/Auth/chan...')
+#3 [internal function]: UsersController->changePassword()
+#4 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#5 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#7 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2024-02-28 04:41:55 Error: [MissingViewException] View file "Users/Users/Auth/change_password.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/Users/Auth/change_password.ctp',
+)
+Request URL: /users/changePassword
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/View/View.php(470): View->_getViewFileName('Users/Users/Aut...')
+#1 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Controller/Controller.php(968): View->render('Users/Auth/chan...', NULL)
+#2 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/Controller/UsersController.php(133): Controller->render('Users/Auth/chan...')
+#3 [internal function]: UsersController->changePassword()
+#4 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#5 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#7 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2024-02-28 04:41:56 Error: [MissingViewException] View file "Users/Users/Auth/change_password.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/Users/Auth/change_password.ctp',
+)
+Request URL: /users/changePassword
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/View/View.php(470): View->_getViewFileName('Users/Users/Aut...')
+#1 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Controller/Controller.php(968): View->render('Users/Auth/chan...', NULL)
+#2 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/Controller/UsersController.php(133): Controller->render('Users/Auth/chan...')
+#3 [internal function]: UsersController->changePassword()
+#4 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#5 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#7 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2024-02-28 04:41:56 Error: [MissingViewException] View file "Users/Users/Auth/change_password.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/Users/Auth/change_password.ctp',
+)
+Request URL: /users/changePassword
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/View/View.php(470): View->_getViewFileName('Users/Users/Aut...')
+#1 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Controller/Controller.php(968): View->render('Users/Auth/chan...', NULL)
+#2 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/Controller/UsersController.php(133): Controller->render('Users/Auth/chan...')
+#3 [internal function]: UsersController->changePassword()
+#4 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#5 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#7 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2024-02-28 04:41:56 Error: [MissingViewException] View file "Users/Users/Auth/change_password.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/Users/Auth/change_password.ctp',
+)
+Request URL: /users/changePassword
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/View/View.php(470): View->_getViewFileName('Users/Users/Aut...')
+#1 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Controller/Controller.php(968): View->render('Users/Auth/chan...', NULL)
+#2 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/Controller/UsersController.php(133): Controller->render('Users/Auth/chan...')
+#3 [internal function]: UsersController->changePassword()
+#4 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#5 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#7 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2024-02-28 04:41:56 Error: [MissingViewException] View file "Users/Users/Auth/change_password.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/Users/Auth/change_password.ctp',
+)
+Request URL: /users/changePassword
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/View/View.php(470): View->_getViewFileName('Users/Users/Aut...')
+#1 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Controller/Controller.php(968): View->render('Users/Auth/chan...', NULL)
+#2 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/Controller/UsersController.php(133): Controller->render('Users/Auth/chan...')
+#3 [internal function]: UsersController->changePassword()
+#4 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#5 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#7 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2024-02-28 04:46:16 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 04:51:16 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 04:51:36 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 06:10:28 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 06:10:33 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 06:11:20 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 06:11:24 Error: [Error] Call to a member function findById() on null
+Request URL: /users/changePassword
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Validator/CakeValidationRule.php(275): User->matchCurrentPword(Array, Array)
+#1 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Validator/CakeValidationSet.php(135): CakeValidationRule->process('current_passwor...', Array, Array)
+#2 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/ModelValidator.php(268): CakeValidationSet->validate(Array, false)
+#3 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/ModelValidator.php(99): ModelValidator->errors(Array)
+#4 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Model.php(3502): ModelValidator->validates(Array)
+#5 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Model.php(1838): Model->validates(Array)
+#6 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Model.php(1760): Model->_doSave(Array, Array)
+#7 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/Controller/UsersController.php(138): Model->save(Array)
+#8 [internal function]: UsersController->changePassword()
+#9 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#10 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#12 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2024-02-28 06:12:17 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 06:12:21 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'fullname' doesn't have a default value
+Request URL: /users/changePassword
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('INSERT INTO `me...', Array)
+#2 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Datasource/DboSource.php(1132): DboSource->execute('INSERT INTO `me...')
+#3 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Model.php(1942): DboSource->create(Object(User), Array, Array)
+#4 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Model.php(1760): Model->_doSave(Array, Array)
+#5 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/Controller/UsersController.php(138): Model->save(Array)
+#6 [internal function]: UsersController->changePassword()
+#7 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2024-02-28 06:12:21 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 06:23:48 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 06:23:51 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'fullname' doesn't have a default value
+Request URL: /users/changePassword
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('INSERT INTO `me...', Array)
+#2 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Datasource/DboSource.php(1132): DboSource->execute('INSERT INTO `me...')
+#3 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Model.php(1942): DboSource->create(Object(User), Array, Array)
+#4 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Model.php(1760): Model->_doSave(Array, Array)
+#5 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/Controller/UsersController.php(138): Model->save(Array)
+#6 [internal function]: UsersController->changePassword()
+#7 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2024-02-28 06:23:51 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 06:26:12 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 06:26:20 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 06:26:26 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 06:30:15 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 06:33:19 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 06:33:23 Error: [Error] Call to a member function findById() on null
+Request URL: /users/changePassword
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Validator/CakeValidationRule.php(275): User->matchCurrentPword(Array, Array)
+#1 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Validator/CakeValidationSet.php(135): CakeValidationRule->process('current_passwor...', Array, Array)
+#2 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/ModelValidator.php(268): CakeValidationSet->validate(Array, false)
+#3 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/ModelValidator.php(99): ModelValidator->errors(Array)
+#4 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Model.php(3502): ModelValidator->validates(Array)
+#5 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/Controller/UsersController.php(143): Model->validates()
+#6 [internal function]: UsersController->changePassword()
+#7 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2024-02-28 06:35:30 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 06:35:41 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 06:35:46 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 06:36:05 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 06:36:13 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 06:36:13 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 06:36:21 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 06:37:12 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 06:37:15 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 06:37:34 Error: [ParseError] syntax error, unexpected '}', expecting ';' or ','
+Request URL: /users/changePassword
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 [internal function]: spl_autoload_call('UsersController')
+#2 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(266): class_exists('UsersController')
+#3 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-02-28 07:10:24 Error: [Error] Call to a member function find() on null
+Request URL: /users/changePassword
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Validator/CakeValidationRule.php(275): User->matchCurrentPword(Array, Array)
+#1 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Validator/CakeValidationSet.php(135): CakeValidationRule->process('current_passwor...', Array, Array)
+#2 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/ModelValidator.php(268): CakeValidationSet->validate(Array, false)
+#3 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/ModelValidator.php(99): ModelValidator->errors(Array)
+#4 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Model.php(3502): ModelValidator->validates(Array)
+#5 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Model.php(1838): Model->validates(Array)
+#6 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Model.php(1760): Model->_doSave(Array, Array)
+#7 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/Controller/UsersController.php(138): Model->save(Array)
+#8 [internal function]: UsersController->changePassword()
+#9 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#10 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#12 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2024-02-28 07:10:34 Error: [Error] Call to a member function findById() on null
+Request URL: /users/changePassword
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Validator/CakeValidationRule.php(275): User->matchCurrentPword(Array, Array)
+#1 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Validator/CakeValidationSet.php(135): CakeValidationRule->process('current_passwor...', Array, Array)
+#2 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/ModelValidator.php(268): CakeValidationSet->validate(Array, false)
+#3 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/ModelValidator.php(99): ModelValidator->errors(Array)
+#4 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Model.php(3502): ModelValidator->validates(Array)
+#5 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Model.php(1838): Model->validates(Array)
+#6 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Model.php(1760): Model->_doSave(Array, Array)
+#7 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/Controller/UsersController.php(138): Model->save(Array)
+#8 [internal function]: UsersController->changePassword()
+#9 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#10 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#12 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2024-02-28 07:24:42 Error: [ArgumentCountError] Too few arguments to function User::matchCurrentPword(), 2 passed in /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Validator/CakeValidationRule.php on line 275 and exactly 3 expected
+Request URL: /users/changePassword
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Validator/CakeValidationRule.php(275): User->matchCurrentPword(Array, Array)
+#1 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Validator/CakeValidationSet.php(135): CakeValidationRule->process('current_passwor...', Array, Array)
+#2 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/ModelValidator.php(268): CakeValidationSet->validate(Array, false)
+#3 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/ModelValidator.php(99): ModelValidator->errors(Array)
+#4 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Model.php(3502): ModelValidator->validates(Array)
+#5 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Model.php(1838): Model->validates(Array)
+#6 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Model.php(1760): Model->_doSave(Array, Array)
+#7 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/Controller/UsersController.php(139): Model->save(Array)
+#8 [internal function]: UsersController->changePassword()
+#9 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#10 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#12 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2024-02-28 07:25:44 Error: [ArgumentCountError] Too few arguments to function User::matchCurrentPword(), 2 passed in /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Validator/CakeValidationRule.php on line 275 and exactly 3 expected
+Request URL: /users/changePassword
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Validator/CakeValidationRule.php(275): User->matchCurrentPword(Array, Array)
+#1 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Validator/CakeValidationSet.php(135): CakeValidationRule->process('current_passwor...', Array, Array)
+#2 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/ModelValidator.php(268): CakeValidationSet->validate(Array, false)
+#3 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/ModelValidator.php(99): ModelValidator->errors(Array)
+#4 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Model.php(3502): ModelValidator->validates(Array)
+#5 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Model.php(1838): Model->validates(Array)
+#6 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Model.php(1760): Model->_doSave(Array, Array)
+#7 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/Controller/UsersController.php(139): Model->save(Array)
+#8 [internal function]: UsersController->changePassword()
+#9 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#10 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#12 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2024-02-28 07:27:19 Error: [ArgumentCountError] Too few arguments to function User::matchCurrentPword(), 2 passed in /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Validator/CakeValidationRule.php on line 275 and exactly 3 expected
+Request URL: /users/changePassword
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Validator/CakeValidationRule.php(275): User->matchCurrentPword(Array, Array)
+#1 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Validator/CakeValidationSet.php(135): CakeValidationRule->process('current_passwor...', Array, Array)
+#2 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/ModelValidator.php(268): CakeValidationSet->validate(Array, false)
+#3 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/ModelValidator.php(99): ModelValidator->errors(Array)
+#4 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Model.php(3502): ModelValidator->validates(Array)
+#5 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Model.php(1838): Model->validates(Array)
+#6 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Model.php(1760): Model->_doSave(Array, Array)
+#7 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/Controller/UsersController.php(139): Model->save(Array)
+#8 [internal function]: UsersController->changePassword()
+#9 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#10 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#12 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2024-02-28 07:45:29 Error: [ParseError] syntax error, unexpected ')'
+Request URL: /users/changePassword
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 [internal function]: spl_autoload_call('UsersController')
+#2 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(266): class_exists('UsersController')
+#3 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-02-28 07:45:34 Error: [ParseError] syntax error, unexpected ')'
+Request URL: /users/changePassword
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 [internal function]: spl_autoload_call('UsersController')
+#2 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(266): class_exists('UsersController')
+#3 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-02-28 07:51:44 Error: [ParseError] syntax error, unexpected ')'
+Request URL: /users/changePassword
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 [internal function]: spl_autoload_call('UsersController')
+#2 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(266): class_exists('UsersController')
+#3 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-02-28 07:51:52 Error: [ParseError] syntax error, unexpected ')'
+Request URL: /users/changePassword
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 [internal function]: spl_autoload_call('UsersController')
+#2 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(266): class_exists('UsersController')
+#3 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-02-28 08:11:58 Error: [Error] Call to undefined method Validation::set()
+Request URL: /users/changePassword
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/Controller/UsersController.php(139): CustomValidatorComponent->validateCurrentPassword(Array)
+#1 [internal function]: UsersController->changePassword()
+#2 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#3 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-02-28 08:32:30 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'fullname' doesn't have a default value
+Request URL: /users/changePassword
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('INSERT INTO `me...', Array)
+#2 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Datasource/DboSource.php(1132): DboSource->execute('INSERT INTO `me...')
+#3 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Model.php(1942): DboSource->create(Object(User), Array, Array)
+#4 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Model.php(1760): Model->_doSave(Array, Array)
+#5 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/Controller/UsersController.php(150): Model->save(Array)
+#6 [internal function]: UsersController->changePassword()
+#7 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2024-02-28 08:34:22 Error: [ArgumentCountError] Too few arguments to function Model::saveField(), 1 passed in /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/Controller/UsersController.php on line 150 and at least 2 expected
+Request URL: /users/changePassword
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/Controller/UsersController.php(150): Model->saveField(Array)
+#1 [internal function]: UsersController->changePassword()
+#2 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#3 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-02-28 08:35:57 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'fullname' doesn't have a default value
+Request URL: /users/changePassword
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('INSERT INTO `me...', Array)
+#2 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Datasource/DboSource.php(1132): DboSource->execute('INSERT INTO `me...')
+#3 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Model.php(1942): DboSource->create(Object(User), Array, Array)
+#4 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Model.php(1760): Model->_doSave(Array, Array)
+#5 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Model.php(1712): Model->save(Array, Array)
+#6 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/Controller/UsersController.php(150): Model->saveField('password', '123456')
+#7 [internal function]: UsersController->changePassword()
+#8 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#9 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#11 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2024-02-28 08:49:38 Error: [ParseError] syntax error, unexpected '}', expecting ';' or ','
+Request URL: /users/changePassword
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 [internal function]: spl_autoload_call('UsersController')
+#2 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(266): class_exists('UsersController')
+#3 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-02-28 08:50:01 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'fullname' doesn't have a default value
+Request URL: /users/changePassword
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('INSERT INTO `me...', Array)
+#2 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Datasource/DboSource.php(1132): DboSource->execute('INSERT INTO `me...')
+#3 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Model.php(1942): DboSource->create(Object(User), Array, Array)
+#4 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Model.php(1760): Model->_doSave(Array, Array)
+#5 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/Controller/UsersController.php(155): Model->save(Array)
+#6 [internal function]: UsersController->changePassword()
+#7 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2024-02-28 08:51:18 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'fullname' doesn't have a default value
+Request URL: /users/changePassword
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('INSERT INTO `me...', Array)
+#2 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Datasource/DboSource.php(1132): DboSource->execute('INSERT INTO `me...')
+#3 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Model.php(1942): DboSource->create(Object(User), Array, Array)
+#4 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Model.php(1760): Model->_doSave(Array, Array)
+#5 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/Controller/UsersController.php(154): Model->save(Array)
+#6 [internal function]: UsersController->changePassword()
+#7 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2024-02-28 08:54:32 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'fullname' doesn't have a default value
+Request URL: /users/changePassword
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('INSERT INTO `me...', Array)
+#2 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Datasource/DboSource.php(1132): DboSource->execute('INSERT INTO `me...')
+#3 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Model.php(1942): DboSource->create(Object(User), Array, Array)
+#4 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Model.php(1760): Model->_doSave(Array, Array)
+#5 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Model.php(1712): Model->save(Array, Array)
+#6 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/Controller/UsersController.php(154): Model->saveField('password', '123456')
+#7 [internal function]: UsersController->changePassword()
+#8 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#9 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#11 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2024-02-28 08:55:27 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'fullname' doesn't have a default value
+Request URL: /users/changePassword
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('INSERT INTO `me...', Array)
+#2 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Datasource/DboSource.php(1132): DboSource->execute('INSERT INTO `me...')
+#3 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Model.php(1942): DboSource->create(Object(User), Array, Array)
+#4 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Model.php(1760): Model->_doSave(Array, Array)
+#5 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Model.php(1712): Model->save(Array, Array)
+#6 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/Controller/UsersController.php(154): Model->saveField('password', '123456')
+#7 [internal function]: UsersController->changePassword()
+#8 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#9 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#11 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2024-02-28 09:02:21 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'newEntity' at line 1
+Request URL: /users/changePassword
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('newEntity', Array)
+#2 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Datasource/DboSource.php(715): DboSource->execute('newEntity', Array, Array)
+#3 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Datasource/DboSource.php(648): DboSource->fetchAll('newEntity', Array, Array)
+#4 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Model/Model.php(834): DboSource->query('newEntity', Array, Object(User))
+#5 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/Controller/UsersController.php(154): Model->__call('newEntity', Array)
+#6 [internal function]: UsersController->changePassword()
+#7 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2024-02-28 09:14:35 Error: [ParseError] syntax error, unexpected ')', expecting ']'
+Request URL: /users/changePassword
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 [internal function]: spl_autoload_call('UsersController')
+#2 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(266): class_exists('UsersController')
+#3 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-02-28 09:17:47 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 09:22:10 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 09:23:05 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 09:23:56 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 09:24:11 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 09:25:17 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 09:25:56 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 09:26:31 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 09:27:38 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 09:28:30 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 09:29:21 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 09:29:40 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 09:29:57 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 09:31:01 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 09:31:53 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 09:34:29 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 09:34:47 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 09:35:18 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 09:35:25 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 09:35:57 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 09:36:11 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 09:36:44 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 09:37:01 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 09:37:13 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 09:37:15 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 09:37:16 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 09:37:24 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 09:37:41 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 09:38:40 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 09:46:20 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/fontawesome-webfont.woff2?v=4.7.0
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 09:46:20 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/fontawesome-webfont.woff?v=4.7.0
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 09:46:20 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/fontawesome-webfont.ttf?v=4.7.0
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 09:48:48 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/fontawesome-webfont.woff2?v=4.7.0
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 09:48:48 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/fontawesome-webfont.woff?v=4.7.0
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 09:48:48 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/fontawesome-webfont.ttf?v=4.7.0
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 09:49:46 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fontawesome.min.css
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 09:49:58 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/fontawesome-webfont.woff2?v=4.7.0
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 09:49:58 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/fontawesome-webfont.woff?v=4.7.0
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 09:49:58 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/fontawesome-webfont.ttf?v=4.7.0
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 09:50:18 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 09:51:03 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 09:51:03 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/fontawesome-webfont.woff2?v=4.7.0
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 09:51:03 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/fontawesome-webfont.woff?v=4.7.0
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 09:51:03 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/fontawesome-webfont.ttf?v=4.7.0
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 09:51:22 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 09:51:22 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/fontawesome-webfont.woff2?v=4.7.0
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 09:51:22 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/fontawesome-webfont.woff?v=4.7.0
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 09:51:22 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/fontawesome-webfont.ttf?v=4.7.0
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 09:51:32 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 09:51:32 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/fontawesome-webfont.woff2?v=4.7.0
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 09:51:32 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/fontawesome-webfont.woff?v=4.7.0
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 09:51:32 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/fontawesome-webfont.ttf?v=4.7.0
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 09:51:40 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 09:51:40 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/fontawesome-webfont.woff2?v=4.7.0
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 09:51:40 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/fontawesome-webfont.woff?v=4.7.0
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 09:51:40 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/fontawesome-webfont.ttf?v=4.7.0
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 09:51:44 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 09:51:44 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/fontawesome-webfont.woff2?v=4.7.0
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 09:51:44 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/fontawesome-webfont.woff?v=4.7.0
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 09:51:44 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/fontawesome-webfont.ttf?v=4.7.0
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 09:52:21 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 10:01:45 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 10:02:46 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

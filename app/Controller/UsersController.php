@@ -127,6 +127,43 @@ class UsersController extends AppController{
         $this->Auth->logout();
         $this->redirect(['controller' => 'users', 'action' => 'login']);
     }
+    private function checkCurrentPassword($password){
+        $userId = $this->Auth->user('id');
+        $passwordHasher = new BlowfishPasswordHasher();
+        $result = $this->User->find('first',[
+                    'conditions' => [
+                        'User.id' => $userId,
+                        // 'User.password' => $passwordHasher->hash($this->request->data['User']['current_password'])
+                    ],
+                    'fields' => ['password']
+        ]);
+        if(!$passwordHasher->check($password,$result['User']['password'])){
+            return false;
+        }
+        return true;
+    }
+    public function changePassword(){
+        
+        if($this->request->is('post')){
+            $data = [
+                'password' => $this->request->data['User']['password'],
+                'confirm_password' => $this->request->data['User']['confirm_password'],
+            ];
+            
+            if($this->checkCurrentPassword($this->request->data['User']['current_password'])){
+                $this->User->id = $this->Auth->user('id');
+                if($this->User->save($data)){
+                    $this->Flash->set('Password successfully changed!',array('element' => 'success'));
+                    $this->redirect(['controller' => 'messages','action' => 'index']);
+                    
+                }
+            }else{
+                $this->Flash->set('Your old password is incorrect!',array('element' => 'error'));
+            }
+        }
+        $this->layout = 'auth';
+        $this->render('/Users/Auth/change_password');
+    }
 }
 
 ?>

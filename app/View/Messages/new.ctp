@@ -38,7 +38,6 @@
                 dataType:'json',
                 data:{name,method:'findRecipient'},
                 success:function(response){
-                    console.log(response);
                     var htmlDisplay = '';
                     $.each(response, function(index,items){
                         htmlDisplay += "<li class='list-group-item userDiv' name='"+items.User.fullname+"' uID="+items.User.id+">"+items.User.fullname+"</li>";

@@ -3,6 +3,12 @@
     Inbox
   </div>
   <div class="card-body">
+    <?php echo $this->Flash->render() ?>
+    <form action="" class="my-2">
+      <input type="text" class="form-control" placeholder="Search Message" id = "searchMessage">
+      <ul class="list-group" id = "listMessage">
+      </ul>
+    </form>
     <ol class="list-group list-group-numbered">
         <?php
           foreach($connections as $connection):
@@ -23,17 +29,16 @@
                   }
               }
             ?>
-            <li class="list-group-item ">
-              <a href="<?= $this->Html->url(array('controller' => 'messages','action' => 'message', 'id'=>$connection['connections']['id']))?>" class="text-decoration-none d-flex justify-content-between align-items-start">
-                <div class="ms-2 me-auto">
-                  <div class="fw-bold"><?= $name?></div>
-                   <div class="text-dark">
-                      <?= $content; ?>
-                   </div>
-                </div>
-                <span class="badge bg-primary rounded-pill"><?= $count++ ?></span>
-              </a>
-              
+            <li class="list-group-item d-flex position-relative">
+                <a href="<?= $this->Html->url(array('controller' => 'messages','action' => 'message', 'id'=>$connection['connections']['id']))?>" class="text-decoration-none d-block">
+                    <div class="ms-2">
+                        <div class="fw-bold"><?= $name?>  <span class="badge bg-primary rounded-pill"><?= $count++ ?></span> </div>
+                        <div class="text-dark"><?= $content; ?></div>
+                    </div>
+                </a>
+                <button type ="button" class="btn btn-success btn-sm btnRemoveMsg" connection_id = "<?= $connection['connections']['id']?>"> 
+                      <i class="bi bi-trash"></i>
+                    </button>
             </li>
         <?php 
             $topMsg = "";
@@ -42,3 +47,38 @@
     </ol>
   </div>
 </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.1.0-rc.0/js/select2.min.js"></script>
+<script>
+  $(document).ready(function(){
+    $('#searchMessage').keyup(function(){
+      var value = $(this).val();
+      $('#listMessage').html('');
+      $.ajax({
+        url:'/users/api',
+        type:'POST',
+        dataType:'json',
+        data:{value,method:'findMessage'},
+        success:function(response){
+          var html = '';
+          $.each(response, function(index,items){
+            html += "<li class='list-group-item'><a class='text-decoration-none' href='/message/id:"+items.messages.connection_id+"'> You and '<strong>"+items.users.fullname+"</strong>':  "+items.messages.content+"<a></li>";
+              })
+            $('#listMessage').html(html);
+        }//
+      })
+    })
+    $('.btnRemoveMsg').click(function(){
+      var connectionId = $(this).attr('connection_id');
+      $.ajax({
+        url:'/users/api',
+        type:'POST',
+        dataType:'json',
+        data:{connectionId,method:'deleteConnection'},
+        success:function(response){
+          console.log(response);
+        }
+      })
+    })
+    
+  })
+</script>

@@ -70,18 +70,63 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
         font-size: 0.8em;
         color: #888;
       }
+      .btnRemoveMsg{
+          top: 18px;
+          right: 19px;
+          position: absolute;
+      }
   </style>
 	<?php
 		echo $this->Html->meta('icon');
 		echo $this->Html->css('bootstrap.min');
+    echo $this->Html->css('font-awesome.min');
 		echo $this->Html->css('custom');
 		echo $this->fetch('meta');
 		echo $this->fetch('css');
 		echo $this->fetch('script');
 	?>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.1.0-rc.0/css/select2.min.css" rel="stylesheet" />
 	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Dropdown
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+    </div>
 	<div class="container">
 		<div class="header">
 		<div class="row align-items-center">
@@ -115,7 +160,7 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
                         <a href="#!" class="text-decoration-none">
                         </a>
                       </h2>
-                      <div class="mt-4">
+                      <div class="">
                         <?php if(!empty($userData['gender'])):?>
                             <p class="mb-2 d-block">Gender: <?= $userData['gender']; ?></p>
                         <?php endif; ?>
@@ -139,12 +184,14 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
                             echo $this->Time->format($lastLoggedIn, '%B %e, %Y - %H:%M %p');
                         ?>
                       </div>
+
                     </div>
                   </div>
                   <div>
                     <!-- button -->
                     <?= $this->Html->link('Edit Profile',['controller' => 'users', 'action' => 'edit'],['class' => 'btn btn-outline-primary d-none d-md-block']) ?>
                     <?= $this->Html->link('Logout',['controller' => 'users', 'action' => 'logout'],['class' => 'btn btn-outline-secondary d-none d-md-block mt-2']) ?>
+                    <?= $this->Html->link('Change Password',['controller' => 'users', 'action' => 'changePassword'],['class' => 'btn btn-outline-secondary d-none d-md-block mt-2']) ?>
                   </div>
                 </div>
                 <!-- nav -->

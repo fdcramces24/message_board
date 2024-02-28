@@ -36,6 +36,7 @@
 	Router::connect('/users/login', ['controller' => 'users', 'action' => 'login']);
 	Router::connect('/users/logout', ['controller' => 'users', 'action' => 'logout']);
 	Router::connect('/users/welcome', ['controller' => 'users', 'action' => 'welcome']);
+	Router::connect('/users/changePassword', ['controller' => 'users', 'action' => 'changePassword']);
 	Router::connect('/users/new', ['controller' => 'users', 'action' => 'new']);
 
 
