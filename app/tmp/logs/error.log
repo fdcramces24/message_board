@@ -3028,3 +3028,381 @@ Request URL: /css/bootstrap.min.css.map
 Stack Trace:
 #0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2024-02-28 14:38:40 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 C:\home\message_board\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 14:39:59 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+Request URL: /messages
+Stack Trace:
+#0 C:\home\message_board\lib\Cake\Model\Datasource\DboSource.php(502): PDOStatement->execute(Array)
+#1 C:\home\message_board\lib\Cake\Model\Datasource\DboSource.php(468): DboSource->_execute('SELECT * FROM c...', Array)
+#2 C:\home\message_board\lib\Cake\Model\Datasource\DboSource.php(715): DboSource->execute('SELECT * FROM c...', Array, Array)
+#3 C:\home\message_board\lib\Cake\Model\Datasource\DboSource.php(641): DboSource->fetchAll('SELECT * FROM c...', Array)
+#4 C:\home\message_board\lib\Cake\Model\Model.php(3489): DboSource->query('SELECT * FROM c...', false)
+#5 C:\home\message_board\app\Controller\MessagesController.php(102): Model->query('SELECT * FROM c...')
+#6 [internal function]: MessagesController->list()
+#7 C:\home\message_board\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(MessagesController), Array)
+#8 C:\home\message_board\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\home\message_board\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest))
+#10 C:\home\message_board\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2024-02-28 14:40:00 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 C:\home\message_board\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 14:40:10 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 C:\home\message_board\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 14:40:16 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 C:\home\message_board\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 14:40:25 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 C:\home\message_board\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 14:40:33 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 C:\home\message_board\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 14:40:38 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+Request URL: /messages
+Stack Trace:
+#0 C:\home\message_board\lib\Cake\Model\Datasource\DboSource.php(502): PDOStatement->execute(Array)
+#1 C:\home\message_board\lib\Cake\Model\Datasource\DboSource.php(468): DboSource->_execute('SELECT * FROM u...', Array)
+#2 C:\home\message_board\lib\Cake\Model\Datasource\DboSource.php(715): DboSource->execute('SELECT * FROM u...', Array, Array)
+#3 C:\home\message_board\lib\Cake\Model\Datasource\DboSource.php(641): DboSource->fetchAll('SELECT * FROM u...', Array)
+#4 C:\home\message_board\lib\Cake\Model\Model.php(3489): DboSource->query('SELECT * FROM u...', false)
+#5 C:\home\message_board\app\Controller\MessagesController.php(112): Model->query('SELECT * FROM u...')
+#6 [internal function]: MessagesController->list()
+#7 C:\home\message_board\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(MessagesController), Array)
+#8 C:\home\message_board\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\home\message_board\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest))
+#10 C:\home\message_board\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2024-02-28 14:40:39 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 C:\home\message_board\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 14:40:53 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+Request URL: /messages
+Stack Trace:
+#0 C:\home\message_board\lib\Cake\Model\Datasource\DboSource.php(502): PDOStatement->execute(Array)
+#1 C:\home\message_board\lib\Cake\Model\Datasource\DboSource.php(468): DboSource->_execute('SELECT * FROM u...', Array)
+#2 C:\home\message_board\lib\Cake\Model\Datasource\DboSource.php(715): DboSource->execute('SELECT * FROM u...', Array, Array)
+#3 C:\home\message_board\lib\Cake\Model\Datasource\DboSource.php(641): DboSource->fetchAll('SELECT * FROM u...', Array)
+#4 C:\home\message_board\lib\Cake\Model\Model.php(3489): DboSource->query('SELECT * FROM u...', false)
+#5 C:\home\message_board\app\Controller\MessagesController.php(112): Model->query('SELECT * FROM u...')
+#6 [internal function]: MessagesController->list()
+#7 C:\home\message_board\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(MessagesController), Array)
+#8 C:\home\message_board\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\home\message_board\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest))
+#10 C:\home\message_board\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2024-02-28 14:40:54 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 C:\home\message_board\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 14:41:19 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+Request URL: /
+Stack Trace:
+#0 C:\home\message_board\lib\Cake\Model\Datasource\DboSource.php(502): PDOStatement->execute(Array)
+#1 C:\home\message_board\lib\Cake\Model\Datasource\DboSource.php(468): DboSource->_execute('SELECT * FROM u...', Array)
+#2 C:\home\message_board\lib\Cake\Model\Datasource\DboSource.php(715): DboSource->execute('SELECT * FROM u...', Array, Array)
+#3 C:\home\message_board\lib\Cake\Model\Datasource\DboSource.php(641): DboSource->fetchAll('SELECT * FROM u...', Array)
+#4 C:\home\message_board\lib\Cake\Model\Model.php(3489): DboSource->query('SELECT * FROM u...', false)
+#5 C:\home\message_board\app\Controller\MessagesController.php(112): Model->query('SELECT * FROM u...')
+#6 [internal function]: MessagesController->list()
+#7 C:\home\message_board\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(MessagesController), Array)
+#8 C:\home\message_board\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\home\message_board\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest))
+#10 C:\home\message_board\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2024-02-28 14:41:19 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 C:\home\message_board\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 14:41:25 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+Request URL: /messages
+Stack Trace:
+#0 C:\home\message_board\lib\Cake\Model\Datasource\DboSource.php(502): PDOStatement->execute(Array)
+#1 C:\home\message_board\lib\Cake\Model\Datasource\DboSource.php(468): DboSource->_execute('SELECT * FROM u...', Array)
+#2 C:\home\message_board\lib\Cake\Model\Datasource\DboSource.php(715): DboSource->execute('SELECT * FROM u...', Array, Array)
+#3 C:\home\message_board\lib\Cake\Model\Datasource\DboSource.php(641): DboSource->fetchAll('SELECT * FROM u...', Array)
+#4 C:\home\message_board\lib\Cake\Model\Model.php(3489): DboSource->query('SELECT * FROM u...', false)
+#5 C:\home\message_board\app\Controller\MessagesController.php(112): Model->query('SELECT * FROM u...')
+#6 [internal function]: MessagesController->list()
+#7 C:\home\message_board\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(MessagesController), Array)
+#8 C:\home\message_board\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\home\message_board\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest))
+#10 C:\home\message_board\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2024-02-28 14:41:25 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 C:\home\message_board\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 14:41:44 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 C:\home\message_board\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 14:41:56 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 C:\home\message_board\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 14:41:56 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 C:\home\message_board\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 14:42:08 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+Request URL: /messages
+Stack Trace:
+#0 C:\home\message_board\lib\Cake\Model\Datasource\DboSource.php(502): PDOStatement->execute(Array)
+#1 C:\home\message_board\lib\Cake\Model\Datasource\DboSource.php(468): DboSource->_execute('SELECT * FROM c...', Array)
+#2 C:\home\message_board\lib\Cake\Model\Datasource\DboSource.php(715): DboSource->execute('SELECT * FROM c...', Array, Array)
+#3 C:\home\message_board\lib\Cake\Model\Datasource\DboSource.php(641): DboSource->fetchAll('SELECT * FROM c...', Array)
+#4 C:\home\message_board\lib\Cake\Model\Model.php(3489): DboSource->query('SELECT * FROM c...', false)
+#5 C:\home\message_board\app\Controller\MessagesController.php(102): Model->query('SELECT * FROM c...')
+#6 [internal function]: MessagesController->list()
+#7 C:\home\message_board\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(MessagesController), Array)
+#8 C:\home\message_board\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\home\message_board\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest))
+#10 C:\home\message_board\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2024-02-28 14:42:09 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 C:\home\message_board\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 14:42:24 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 C:\home\message_board\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 14:42:31 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+Request URL: /messages
+Stack Trace:
+#0 C:\home\message_board\lib\Cake\Model\Datasource\DboSource.php(502): PDOStatement->execute(Array)
+#1 C:\home\message_board\lib\Cake\Model\Datasource\DboSource.php(468): DboSource->_execute('SELECT * FROM u...', Array)
+#2 C:\home\message_board\lib\Cake\Model\Datasource\DboSource.php(715): DboSource->execute('SELECT * FROM u...', Array, Array)
+#3 C:\home\message_board\lib\Cake\Model\Datasource\DboSource.php(641): DboSource->fetchAll('SELECT * FROM u...', Array)
+#4 C:\home\message_board\lib\Cake\Model\Model.php(3489): DboSource->query('SELECT * FROM u...', false)
+#5 C:\home\message_board\app\Controller\MessagesController.php(112): Model->query('SELECT * FROM u...')
+#6 [internal function]: MessagesController->list()
+#7 C:\home\message_board\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(MessagesController), Array)
+#8 C:\home\message_board\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\home\message_board\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest))
+#10 C:\home\message_board\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2024-02-28 14:42:32 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 C:\home\message_board\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 14:42:32 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 C:\home\message_board\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 14:42:37 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 C:\home\message_board\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 14:42:45 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 C:\home\message_board\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 14:42:49 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+Request URL: /messages
+Stack Trace:
+#0 C:\home\message_board\lib\Cake\Model\Datasource\DboSource.php(502): PDOStatement->execute(Array)
+#1 C:\home\message_board\lib\Cake\Model\Datasource\DboSource.php(468): DboSource->_execute('SELECT * FROM u...', Array)
+#2 C:\home\message_board\lib\Cake\Model\Datasource\DboSource.php(715): DboSource->execute('SELECT * FROM u...', Array, Array)
+#3 C:\home\message_board\lib\Cake\Model\Datasource\DboSource.php(641): DboSource->fetchAll('SELECT * FROM u...', Array)
+#4 C:\home\message_board\lib\Cake\Model\Model.php(3489): DboSource->query('SELECT * FROM u...', false)
+#5 C:\home\message_board\app\Controller\MessagesController.php(112): Model->query('SELECT * FROM u...')
+#6 [internal function]: MessagesController->list()
+#7 C:\home\message_board\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(MessagesController), Array)
+#8 C:\home\message_board\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\home\message_board\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest))
+#10 C:\home\message_board\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2024-02-28 14:42:49 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 C:\home\message_board\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 14:42:57 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 C:\home\message_board\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 14:43:00 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 C:\home\message_board\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 14:43:00 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 C:\home\message_board\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 14:43:05 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 C:\home\message_board\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 14:43:05 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 C:\home\message_board\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 14:43:17 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 C:\home\message_board\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-02-28 14:43:24 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+Request URL: /messages
+Stack Trace:
+#0 C:\home\message_board\lib\Cake\Model\Datasource\DboSource.php(502): PDOStatement->execute(Array)
+#1 C:\home\message_board\lib\Cake\Model\Datasource\DboSource.php(468): DboSource->_execute('SELECT * FROM u...', Array)
+#2 C:\home\message_board\lib\Cake\Model\Datasource\DboSource.php(715): DboSource->execute('SELECT * FROM u...', Array, Array)
+#3 C:\home\message_board\lib\Cake\Model\Datasource\DboSource.php(641): DboSource->fetchAll('SELECT * FROM u...', Array)
+#4 C:\home\message_board\lib\Cake\Model\Model.php(3489): DboSource->query('SELECT * FROM u...', false)
+#5 C:\home\message_board\app\Controller\MessagesController.php(112): Model->query('SELECT * FROM u...')
+#6 [internal function]: MessagesController->list()
+#7 C:\home\message_board\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(MessagesController), Array)
+#8 C:\home\message_board\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\home\message_board\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest))
+#10 C:\home\message_board\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2024-02-28 14:43:25 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 C:\home\message_board\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
