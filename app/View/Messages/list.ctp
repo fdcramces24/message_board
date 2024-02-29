@@ -1,6 +1,6 @@
 <div class="card">
-    <div class="card-header">
-        Inbox
+    <div class="card-header d-flex">
+        Inbox <a href="<?php echo $this->Html->url(['controller' => 'messages', 'action' => 'new']); ?>" class="text-decoration-none ms-auto"><i class="bi bi-chat-right-text"></i> New Message</a>
     </div>
     <div class="card-body">
         <?php echo $this->Flash->render() ?>
@@ -9,49 +9,72 @@
             <ul class="list-group" id="listMessage">
             </ul>
         </form>
-        <ol class="list-group list-group-numbered">
-            <?php
-          foreach($connections as $connection):
-        ?>
-            <?php
-              $name = "";
-              $content = "";
-              $count = 0;
-              foreach($connection_members as $connection_member){
-                if($connection_member['connection_members']['connection_id'] == $connection['connections']['id'] && $connection_member['connection_members']['user_id'] != $userId){
-                    $name = $users[$connection_member['connection_members']['user_id']]['users']['fullname'];
-                }
-              }
-              foreach($messages as $message){
-                  if($connection['connections']['id'] === $message['messages']['connection_id']){
-                    $count++;
-                    $content = $message['messages']['content'];
-                  }
-              }
-            ?>
-            <li class="list-group-item d-flex position-relative">
-                <a href="<?= $this->Html->url(array('controller' => 'messages','action' => 'message', 'id'=>$connection['connections']['id']))?>"
-                    class="text-decoration-none d-block">
-                    <div class="ms-2">
-                        <div class="fw-bold"><?= $name?> <span
-                                class="badge bg-primary rounded-pill"><?= $count++ ?></span> </div>
-                        <div class="text-dark"><?= $content; ?></div>
-                    </div>
-                </a>
-                <button type="button" class="btn btn-success btn-sm btnRemoveMsg"
-                    connection_id="<?= $connection['connections']['id']?>">
-                    <i class="bi bi-trash"></i>
-                </button>
-            </li>
-            <?php 
-            $topMsg = "";
-            endforeach;
-        ?>
-        </ol>
+        <div id="messageList">
+            
+        </div>
+        <nav aria-label="Page navigation example">
+            <ul class="pagination">
+                <li class="page-item"><a class="page-link pagedBtn" pageType="prev" href="#">Previous</a></li>
+                <li class="page-item"><a class="page-link pagedBtn" pageType="next">Next</a></li>
+            </ul>
+        </nav>
     </div>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.1.0-rc.0/js/select2.min.js"></script>
 <script>
+function getUrlParameter(name) {
+    var urlParams = new URLSearchParams(window.location.search);
+    return urlParams.get(name);
+}
+function load(paged){
+        $.ajax({
+            url: '/users/api',
+                type: 'POST',
+                dataType: 'json',
+                data: {
+                    method: 'inbox',
+                    paged
+                },
+                success:function(response){
+                    console.log(response);
+                    
+                    html = '';
+                    if(response.success){
+                        if(response.paginate.limit > response.paginate.total){
+                            $('.pagination').css('display','none');
+                        }
+                        html +=  '<ol class="list-group list-group-numbered">';
+                        $.each(response.data,function(index,items){
+                            html +=     '<li class="list-group-item d-flex position-relative listMessage">';
+                            html +=        '<a href="/message/id:'+items.connection_id+'"';
+                            html +=            'class="text-decoration-none d-block">';
+                            html +=            '<div class="ms-2">';
+                            html +=                '<div class="fw-bold">'+items.name+'';
+                            html +=                        ' <span class="badge bg-primary rounded-pill">'+items.count+'</span> </div>';
+                            html +=                '<div class="text-dark">'+items.content+'</div>';
+                            html +=            '</div>';
+                            html +=         '</a>';
+                            html +=         '<button type="button" class="btn btn-success btn-sm btnRemoveMsg" connection_id="'+items.connection_id+'">';
+                            html +=            '<i class="bi bi-trash"></i>';
+                            html +=        '</button>';
+                            html +=    '</li>';
+                        });
+                        html += '</ol>';
+                    }
+                    else{
+                                html +=  '<ul class="list-group text-center">'
+                                    html +=  '<li class="list-group-item text-center">'
+                                    html +=       '<p class="mb-0">Message box is empty. Click <a href="/new-message">here</a> to create</p>'
+                                    html +=   '</li>';
+                                html +=  '</ul>';
+                                $('.pagination').css('display','none');
+                    }
+                    $('#messageList').html(html);
+                }
+        })
+}
+var paged = getUrlParameter('paged');
+load(paged);
 $(document).ready(function() {
     $('#searchMessage').keyup(function() {
         var value = $(this).val();
@@ -77,7 +100,9 @@ $(document).ready(function() {
             } //
         })
     })
-    $('.btnRemoveMsg').click(function() {
+    $(document).on('click','.btnRemoveMsg',function() {
+        var parentClass = $(this).parent();
+        var countMessages = $('.listMessage').length;
         // Use SweetAlert2 to confirm delete action
         Swal.fire({
             title: 'Are you sure?',
@@ -93,13 +118,22 @@ $(document).ready(function() {
                 $.ajax({
                     url: '/users/api',
                     type: 'POST',
-                    dataType: 'json',
+                    // dataType: 'json',
                     data: {
                         connectionId,
                         method: 'deleteConnection'
                     },
                     success: function(response) {
-                        console.log(response);
+                        $(parentClass).remove();
+                        var countMessages = $('.listMessage').length;
+                        if(countMessages == 0){
+                            var html = '';
+                                html +=  '<li class="list-group-item text-center">'
+                                html +=       '<p class="mb-0">Message box is empty. Click <a href="/new-message">here</a> to create</p>'
+                                html +=   '</li>';
+                            $('.list-group-numbered').html(html);
+                            $('.list-group-numbered').removeClass('list-group-numbered');
+                        }
                         Swal.fire(
                             'Deleted!',
                             'Your item has been deleted.',
@@ -109,8 +143,14 @@ $(document).ready(function() {
                 })
             }
         });
-
     })
-
+    $('.pagedBtn').click(function(){
+        var type = $(this).attr('pageType');
+        if(type == 'next'){
+            paged = (paged)+1;
+            alert(paged);
+            load(paged);    
+        }
+    })
 })
 </script>

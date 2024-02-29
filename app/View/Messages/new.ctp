@@ -6,8 +6,20 @@
      <?= $this->Form->create('Messages',['controller' => 'messages','url' => 'new']);?>
      <div class="row">
         <div class="col">
-            <label for="recipient">To:</label>
-            <input type="text" class="form-control" id="recipient">
+            <?= $this->Flash->render();?>
+        </div>
+     </div>
+     <div class="row">
+        <div class="col">
+            <?php
+                echo $this->Form->input('recipientId', [
+                    'class' => 'form-control select2',
+                    'label' => 'To',
+                    'empty' => 'Select recipient',
+                    'options' => $users
+                ]);
+            ?>
+            <!-- <input type="text" class="form-control" id="recipient"> -->
             <input type="text" hidden name = "recipientId">
             <div class="table">
             <ul class="list-group" id = "listContacts">
@@ -52,6 +64,22 @@
             $("input[name='recipientId']").val($(this).attr('uID'));
             $('#listContacts').html('');
         })
+        $('.select2').select2();
+        // $('.select2').addClass('form-control');
+        // $('.mySelect').select2({
+        //     ajax: {
+        //     url: 'your_endpoint_url', // URL to fetch data from
+        //     dataType: 'json',
+        //     delay: 250, // Delay in milliseconds before sending the query
+        //     processResults: function(data) {
+        //         // Process the fetched data and return an array of objects in the required format
+        //         return {
+        //         results: data // Assuming the data is already in the correct format
+        //         };
+        //     },
+        //     cache: true // Cache the AJAX results to improve performance
+        //     }
+        // });
         // $('#recipient').blur(function() {
         //     $('#listContacts').html('');
         // });
