@@ -83,18 +83,18 @@ class UsersController extends AppController{
     public function welcome(){
         $authData = $this->Auth->user();
         $lastLoggedIn  = $authData['last_logged_in'];
-        if(empty($lastLoggedIn)){
+        $userId = $authData['id'];
+        $userData = $this->User->findById($userId);
+        if(empty($userData['User']['last_logged_in'])){
             $userId = $authData['id'];
             $userData = $this->User->findById($userId);
-            if(empty($userData['last_logged_in'])){
-                $data = [
-                    'id' => $userId,
-                    'last_logged_in' => date('Y-m-d H:i:s')
-                ];
-                $this->User->save($data);
-            }else{
-                $this->redirect(['controller' => 'users', 'action' => 'index']);
-            }
+            $data = [
+                'id' => $userId,
+                'last_logged_in' => date('Y-m-d H:i:s')
+            ];
+            $this->User->save($data);
+        }else{
+            $this->redirect(['controller' => 'messages', 'action' => 'list']);
         }
         $this->layout = 'auth';
         $this->render('/Users/Auth/welcome');

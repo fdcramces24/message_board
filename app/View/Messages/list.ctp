@@ -36,7 +36,6 @@ function load(paged){
                     paged
                 },
                 success:function(response){
-                    console.log(response);
                     
                     html = '';
                     if(response.success){

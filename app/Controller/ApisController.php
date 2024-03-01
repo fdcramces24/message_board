@@ -42,7 +42,7 @@
         }
         public function inbox($postData){
             $offset = isset($postData['paged']) ? $postData['paged'] : 0;
-            $limit = 2;
+            $limit = 10;
             $authData = $this->Auth->user();
             $userId  = $authData['id'];
             $this->loadModel('Connection');

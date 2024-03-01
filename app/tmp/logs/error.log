@@ -5691,3 +5691,22 @@ Request URL: /css/bootstrap.min.css.map
 Stack Trace:
 #0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2024-03-01 09:32:41 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-03-01 09:49:33 Error: [ParseError] syntax error, unexpected ';', expecting ')'
+Request URL: /users/welcome
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 [internal function]: spl_autoload_call('UsersController')
+#2 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(266): class_exists('UsersController')
+#3 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Users/fdc-ramces-mt-web/Documents/trainings/message_board/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
